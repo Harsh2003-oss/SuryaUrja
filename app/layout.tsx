@@ -1,5 +1,5 @@
 // app/layout.tsx
-
+import "./global.css"
 export default function RootLayout({
   children,
 }: {
