@@ -105,10 +105,13 @@ export default function SubsidyCard() {
 
       {/* Button */}
 
-      <button className="mt-10 flex items-center gap-3 rounded-xl bg-white px-6 py-4 font-semibold text-green-700 transition hover:gap-5">
+      <a
+        href="https://pmsuryaghar.gov.in/"
+
+      className="mt-10 flex items-center gap-3 rounded-xl bg-white px-6 py-4 font-semibold text-green-700 transition hover:gap-5">
         Learn About Subsidy
         <FaArrowRight />
-      </button>
+      </a>
 
       {/* Disclaimer */}
 

@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
-import Services from "./services/Services";
+import Services from "./components/services/Services";
 
 
 export default function Home() {

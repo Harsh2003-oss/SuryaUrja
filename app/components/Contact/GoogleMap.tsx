@@ -34,7 +34,7 @@ export default function GoogleMap() {
         <div className="mt-10 overflow-hidden rounded-3xl shadow-xl border border-green-100">
 
           <iframe
-            src="https://www.google.com/maps?q=Michael+Madhusudan+Colony+Sahudangi+Hut+Siliguri&output=embed"
+            src="https://www.google.com/maps?q=26.676,88.435&z=16&output=embed"
             width="100%"
             height="450"
             loading="lazy"

@@ -2,7 +2,7 @@
 
 import ServiceCard from "./ServiceCard";
 import { services } from "./ServicesData";
-import SectionHeading from "../components/Common/SectionHeading";
+import SectionHeading from "../Common/SectionHeading";
 
 export default function Services() {
   return (

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
+      import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -54,14 +55,16 @@ export default function CTA() {
 
             </button>
 
-            <button className="flex items-center gap-3 rounded-xl border-2 border-white px-8 py-4 font-semibold text-white transition hover:bg-white hover:text-green-700">
+            <Link
+href="/contact"
+             className="flex items-center gap-3 rounded-xl border-2 border-white px-8 py-4 font-semibold text-white transition hover:bg-white hover:text-green-700">
 
               <FaPhoneAlt />
 
               Contact Us
 
-            </button>
-
+            
+</Link>
           </div>
 
         </motion.div>

@@ -3,12 +3,22 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaArrowRight, FaPhoneAlt } from "react-icons/fa";
+      import Link from "next/link";
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-green-50 via-white to-yellow-50">
 
       {/* Background Blur */}
+
+
+<Link
+  href="/contact"
+  className="flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg transition-all duration-300 hover:scale-105"
+>
+  Get Free Quote
+  <FaArrowRight />
+</Link>
 
       <div className="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-green-300/30 blur-3xl"></div>
 
@@ -64,14 +74,13 @@ export default function Hero() {
                 <FaArrowRight />
 
               </button>
-
-              <button className="flex items-center gap-3 rounded-xl border-2 border-green-600 px-8 py-4 font-semibold text-green-600 transition duration-300 hover:bg-green-600 hover:text-white">
-
-                <FaPhoneAlt />
-
-                Call Now
-
-              </button>
+<Link
+  href="/contact"
+  className="flex items-center gap-3 rounded-xl border-2 border-green-600 px-8 py-4 font-semibold text-green-600 transition duration-300 hover:bg-green-600 hover:text-white"
+>
+  <FaPhoneAlt />
+  Call Now
+</Link>
 
             </div>
 

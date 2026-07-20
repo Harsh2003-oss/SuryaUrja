@@ -132,9 +132,11 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <button className="mx-6 mt-4 bg-green-600 text-white py-3 rounded-xl">
+            <Link 
+            href="/contact"
+            className="mx-6 mt-4 bg-green-600 text-white py-3 rounded-xl">
               Get Free Quote
-            </button>
+            </Link>
 
           </div>
 
