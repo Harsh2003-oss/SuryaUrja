@@ -53,10 +53,10 @@ export default function Navbar() {
             className="transition-transform duration-300 hover:scale-105"
           >
             <Image
-              src="/logo.png"
-              alt="Smart Solar Urja"
+              src="/logo1.png"
+              alt="Smart Surya Urja"
               width={210}
-              height={60}
+              height={80}
               priority
               className="h-14 w-auto"
             />
